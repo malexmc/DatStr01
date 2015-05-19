@@ -1,0 +1,16 @@
+#include "Quadrilateral.h"
+
+class Rectangle : Quadrilateral
+{
+public:
+	Rectangle();
+	virtual ~Rectangle() {}
+	
+	void printSelf();
+	double area();
+	double perimeter();
+	
+private:
+	double length;
+	double width;
+};

@@ -1,0 +1,15 @@
+#include "Quadrilateral.h"
+
+class Square : Quadrilateral
+{
+public:
+	Square();
+	virtual ~Square() {}
+	
+	void printSelf();
+	double area();
+	double perimeter();
+	
+private:
+	double side;
+};
